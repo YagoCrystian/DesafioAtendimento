@@ -21,19 +21,23 @@ Desafio proposto para praticas de .NET usando a lib LINQ e NPOI para manipulaç�
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/YagoCrystian/StopWatch.git
+   git clone https://github.com/YagoCrystian/DesafioAtendimento.git
    
 2. **Acesse seu file:**
    ```bash
-    cd StopWatch
+    cd DesafioAtendimento
 
-3. **Compile e rode:**
+3. **Instale o NPOI :**
+    ```bash
+    dotnet add package NPOI
+    
+4. **Compile e rode:**
     ```bash
     dotnet run
 
 
 ## Estrutura do Código
-Program.cs: Contém a lógica principal do programa, incluindo a navegação do menu e as funções para configurar e executar o cronômetro.
+Program.cs: Contém a lógica principal do programa, incluindo a implementação dos métodos para puxar os filtros e os exercicios.
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
